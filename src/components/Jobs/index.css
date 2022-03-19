@@ -1,0 +1,20 @@
+.jobs-section {
+  display: flex;
+
+  background-color: #000000;
+  width: 100%;
+}
+
+.responsive-jobs {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-jobs {
+    flex-direction: row;
+  }
+}

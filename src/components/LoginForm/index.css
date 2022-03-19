@@ -1,0 +1,124 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000000;
+}
+
+.responsive-container {
+  display: flex;
+  box-shadow: 0px 4px 4px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  justify-content: center;
+  background-color: #202020;
+  width: 80%;
+  max-width: 400px;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 50%;
+    max-width: 578px;
+  }
+}
+.website-logo {
+  margin-top: 50px;
+  height: 50px;
+  width: 150px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+}
+@media screen and (min-width: 768px) {
+  .form-container {
+    max-width: 550px;
+    flex-shrink: 0;
+    padding: 64px 48px 64px 48px;
+  }
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+
+.user-input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+
+  padding: 8px 16px 8px 16px;
+}
+.password-input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+}
+
+.login-button {
+  outline: none;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  width: 100%;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4f46e5;
+}
+.error-message {
+  align-self: flex-start;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  line-height: 16px;
+  font-family: 'Roboto';
+  color: #ff0b37;
+}
+
+.message {
+  align-self: flex-start;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+  line-height: 16px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #f73144;
+}
